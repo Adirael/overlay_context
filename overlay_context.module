@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements of hook_ctools_plugin_directory()
+ */
+function overlay_context_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'ctools') {
+    return 'plugins/' . $plugin_type;
+  }
+}

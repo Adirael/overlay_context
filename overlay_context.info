@@ -1,0 +1,7 @@
+name = Overlay Context
+description = Creates a ctools plugin so page_manager can use the admin overlay as selection rule
+core = "7.x"
+
+dependencies[] = ctools
+dependencies[] = overlay
+files[] = overlay_context.module
